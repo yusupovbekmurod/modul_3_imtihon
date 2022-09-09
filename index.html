@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Bootstrab -->
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+   </script>
+
+   <!-- main css -->
+
+   <link rel="stylesheet" href="./style.css">
+   <title>PIZZA-uz</title>
+</head>
+
+<body>
+   <header class="bg-danger">
+      <div class="container">
+         <nav>
+            <h3 class="title text-light p-4 text-align-center">PIZZA-uz</h3>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <div class="modal_bg-color"></div>
+      <div class="modalcard">
+         
+         <h2 class="text-success">SUCCESSFULL!</h2>
+         <button class="qwerty btn btn-success " id="close">
+            OK
+         </button>
+      </div>
+      <h4 class="title w-25 p-3">PITSA BUYURTMA QILISH</h4>
+
+      <div class="container bg-danger">
+
+
+
+         <div class="left-input p-2">
+            <h4>Noni qanday bo'lsin ? </h4>
+            <select class="nonqalin form-select w-25 p-2" aria-label="Default select example">
+               <option>Yupqa</option>
+               <option>Qalin</option>
+               <option>Eng qalin</option>
+            </select>
+
+            <h4>Kattaligi</h4>
+            <div class="big_circle">
+               <div class=" form-check">
+                  <input class="form-check-input olchami p-3" value="25sm" type="radio" name="flexRadioDefault"
+                     id="flexRadioDefault1">
+                  <label class="form-check-label " for="flexRadioDefault1">
+                     <p>25sm</p>
+                  </label>
+               </div>
+               <div class=" form-check">
+                  <input class="form-check-input smm p-3" value="30sm" type="radio" name="flexRadioDefault"
+                     id="flexRadioDefault2">
+                  <label class="form-check-label " for="flexRadioDefault2">
+                     <p>30sm</p>
+                  </label>
+               </div>
+               <div class=" form-check">
+                  <input class=" pro form-check-input olchami p-3" value="35sm" type="radio" name="flexRadioDefault"
+                     id="flexRadioDefault3">
+                  <label class="form-check-label " for="flexRadioDefault3">
+                     <p>35sm</p>
+                  </label>
+               </div>
+               <!-- <div class=" form-check">
+                  <input class="form-check-input olchami p-3" value="30sm" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                     checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                     <p>30sm</p>
+                  </label>
+               </div>
+               <div class=" form-check">
+                  <input class="form-check-input olchami p-3" value="35sm" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                     checked>
+                  <label class="form-check-label" for="flexRadioDefault3">
+                     <p>35sm</p>
+                  </label>
+               </div> -->
+            </div>
+            <h4>Tarkibi nimalardan iborat ?</h4>
+            <div class="checkbox">
+               <div class="left_checkbox">
+                  <div class="form-check">
+                     <input class="pomidor form-check-input" type="checkbox" value="Pomidor" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Pomidor
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="kurka_goshti form-check-input" type="checkbox" value="Kurka go'shti" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Kurka go'shti
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class=" zaytun form-check-input" type="checkbox" value="  Zaytun" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Zaytun
+                     </label>
+                  </div>
+               </div>
+               <div class="right_checkbox">
+                  <div class="form-check">
+                     <input class=" bodring form-check-input" type="checkbox" value="Tuzlangan bodring" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Tuzlangan bodring
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class=" qoziqorin form-check-input" type="checkbox" value="Qo'ziqorin" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Qo'ziqorin
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class=" qazi form-check-input" type="checkbox" value=" Qazi" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Qazi
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <h4>Qo'shimchalar</h4>
+            <div class="checkbox">
+               <div class="left_checkbox">
+                  <div class="form-check">
+                     <input class="achchiq form-check-input" type="checkbox" value="Achchiq" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Achchiq
+                     </label>
+                  </div>
+               </div>
+               <div class="right_checkbox">
+                  <div class="form-check">
+                     <input class=" sosiska form-check-input" type="checkbox" value=" Sosiska" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                        Sosiska
+                     </label>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+         <div class="line">
+         </div>
+         <div class="right_output p-2">
+            <div class="non">
+               <h5>Noni:</h5>
+               <p class="nonini"></p>
+            </div>
+            <div class="katta">
+               <h5>Kattaligi:</h5>
+               <p class="kattaligini"></p>
+            </div>
+            <div class="ustida">
+               <h5>Ustida:</h5>
+              <div class="box d-flex ">
+               <div class="left d-flex flex-column ">
+                  <p class="a"></p>
+                  <p class="b"></p>
+                  <p class="c"></p>
+               </div>
+               <div class="right d-flex flex-column ms-4">
+                  <p class="d"></p>
+                  <p class="e"></p>
+                  <p class="f"></p>
+               </div>
+              </div>
+            </div>
+            <div class="qoshimcha">
+               <h5>Qo'shimcha:</h5>
+               <div class="boxs ">
+                  <div class="lefts ">
+                     <p class="nums"></p>
+                  </div>
+                  <div class="rights">
+                     <p class="h"></p>
+                  </div>
+               </div>
+            </div>
+            <button class="tugmacha btn btn-success">Buyurtma berish</button>
+         </div>
+      </div>
+   </main>
+
+   <footer class="bg-danger p-3 text-align-center  ">
+      <p class="text text-light w-50  align-items-center ">MY-SITE-2022 &#169</p>
+   </footer>
+
+   <script src="./plugin.js"></script>
+   <script src="./main.js"></script>
+</body>
+
+</html>

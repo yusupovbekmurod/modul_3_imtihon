@@ -1,0 +1,125 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   background-image: url(./img/pizza.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+main {
+   flex-grow: 1;
+}
+
+main {
+   width: 100%;
+}
+
+.title {
+   margin: auto;
+   text-align: center;
+}
+
+.modalcard {
+   width: 400px;
+   height: 200px;
+   position: fixed;
+   background-color: rgb(255, 255, 255);
+   top: -200px;
+   right: 37%;
+   transition: all 0.6s ease;
+   z-index: 4;
+
+}
+
+.pastgatush {
+   top: 200px;
+
+}
+
+.modal_bg-color {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100% !important;
+   height: 100vh !important;
+   background-color: rgba(0, 0, 0, 0.648);
+   display: none;
+   transition: all 0.3 ease;
+   -webkit-transition: all 0.3 ease;
+   -moz-transition: all 0.3 ease;
+   -ms-transition: all 0.3 ease;
+   -o-transition: all 0.3 ease;
+   z-index: 2;
+}
+.qwerty{
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+}
+
+main .container {
+   width: 75%;
+
+
+   display: flex;
+   justify-content: space-between;
+}
+
+h4 {
+   margin-top: 20px;
+}
+
+main .container .left-input {
+   width: 65%;
+}
+
+main .container .line {
+   width: 3px;
+   height: 500px;
+   background-color: rgba(88, 88, 88, 0.945);
+}
+
+main .container .big_circle {
+   display: flex;
+}
+
+main .container .big_circle .form-check p {
+   margin-top: 10px;
+}
+
+main .container .circle_size {
+   padding: 16px;
+   border: 1px solid black;
+   border-radius: 50%;
+   margin-left: 10px;
+   background-color: #fff;
+}
+
+main .container .checkbox {
+   display: flex;
+}
+
+main .container .checkbox .right_checkbox {
+   margin-left: 30px;
+}
+
+main .container .right_output {
+   width: 35%;
+}
+
+footer .text {
+   margin: auto;
+   text-align: center;
+
+}
